@@ -1,6 +1,10 @@
 {
+  "dependencies": {
+    "promise": "^7.0.4",
+    "rho": "^0.2"
+  },
   "name": "jstransformer-rho",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Rho support for JSTransformers",
   "keywords": [
     "jstransformer",
@@ -16,11 +20,16 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
   },
-  "repository": "jstransformers/jstransformer-rho",
-  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
-  "license": "MIT",
-  "dependencies": {
-    "promise": "^7.0.4",
-    "rho": "^0.2.3"
-  }
+  "engines": {
+    "node": ">=0.10.36"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-rho.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
