@@ -1,5 +1,7 @@
 # jstransformer-rho
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-rho.svg)](https://greenkeeper.io/)
+
 [Rho](https://github.com/inca/rho) support for [JSTransformers][http://github.com/jstransformers].
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-rho/master.svg)](https://travis-ci.org/jstransformers/jstransformer-rho)
