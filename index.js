@@ -1,7 +1,6 @@
 'use strict'
 
-var rho = require('rho')
-var Promize = require('promise')
+const rho = require('rho')
 
 exports.name = 'rho'
 exports.inputFormats = ['rho', 'markdown', 'md']
@@ -9,8 +8,8 @@ exports.outputFormat = 'html'
 
 exports.render = rho.toHtml
 exports.renderAsync = function (str) {
-  return new Promize(function (resolve, reject) {
-    rho.render(str, function (err, res) {
+  return new Promise((resolve, reject) => {
+    rho.render(str, (err, res) => {
       if (err) {
         return reject(err)
       }
