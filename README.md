@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var rho = require('jstransformer')(require('jstransformer-rho'));
+var rho = require('jstransformer')(require('jstransformer-rho'))
 
 rho.render('Hello *world*!').body
 //=> '<p>Hello <strong>world</strong>!</p>'
