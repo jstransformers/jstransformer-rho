@@ -13,6 +13,7 @@ exports.renderAsync = function (str) {
       if (err) {
         return reject(err)
       }
+
       resolve(res)
     })
   })
